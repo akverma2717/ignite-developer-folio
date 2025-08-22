@@ -25,9 +25,14 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <span className="text-2xl font-bold gradient-text">
-              Portfolio
-            </span>
+            <div className="flex items-center space-x-2">
+              <div className="w-8 h-8 rounded-lg bg-gradient-primary flex items-center justify-center">
+                <span className="text-white font-bold">AR</span>
+              </div>
+              <span className="text-xl font-bold text-foreground">
+                Aman Raj Developer
+              </span>
+            </div>
           </div>
 
           {/* Desktop Navigation */}

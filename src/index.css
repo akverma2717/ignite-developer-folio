@@ -8,18 +8,18 @@
 
 @layer base {
   :root {
-    /* Background System */
-    --background: 240 10% 3.9%;
-    --background-secondary: 240 8% 7%;
-    --background-tertiary: 240 6% 10%;
+    /* Background System - Dark Navy Theme */
+    --background: 230 25% 5%;
+    --background-secondary: 230 20% 8%;
+    --background-tertiary: 230 15% 10%;
     --foreground: 0 0% 98%;
-    --foreground-secondary: 240 5% 84%;
-    --foreground-muted: 240 5% 64.9%;
+    --foreground-secondary: 230 10% 75%;
+    --foreground-muted: 230 10% 55%;
 
-    /* Brand Colors */
-    --primary: 262 83% 58%;
-    --primary-light: 262 83% 68%;
-    --primary-dark: 262 83% 48%;
+    /* Brand Colors - Purple Accent Theme */
+    --primary: 258 90% 66%;
+    --primary-light: 258 90% 76%;
+    --primary-dark: 258 90% 56%;
     --primary-foreground: 0 0% 98%;
 
     --secondary: 217 91% 60%;

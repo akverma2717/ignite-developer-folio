@@ -97,7 +97,7 @@ const Contact = () => {
   ];
 
   return (
-    <section id="contact" className="py-20 relative overflow-hidden">
+    <section id="contact" className="py-20 bg-background-secondary relative overflow-hidden">
       {/* Background Elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <div className="absolute -top-40 -right-40 w-80 h-80 bg-primary/5 rounded-full blur-3xl" />
@@ -106,8 +106,8 @@ const Contact = () => {
 
       <div className="section-container relative z-10">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-6">
-            Let's <span className="gradient-text">Connect</span>
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
+            Contact
           </h2>
           <p className="text-xl text-foreground-secondary max-w-2xl mx-auto">
             Ready to collaborate on your next project? Let's discuss how we can work together

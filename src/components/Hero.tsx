@@ -39,23 +39,24 @@ const Hero = () => {
           {/* Main Content */}
           <div className="fade-in-up">
             <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-              <span className="block text-foreground">Hi, I'm</span>
-              <span className="block gradient-text">Your Name</span>
+              <span className="block text-foreground">Hi, I'm </span>
+              <span className="block gradient-text">Aman Raj</span>
             </h1>
           </div>
 
           <div className="fade-in-up delay-200">
-            <p className="text-xl md:text-2xl text-primary font-semibold mb-4">
-              Full Stack Developer | 3× Smart India Hackathon Finalist
+            <p className="text-xl md:text-2xl text-foreground-secondary font-medium mb-2">
+              Full Stack Developer | Software Developer | SIH Finalist
+            </p>
+            <p className="text-lg text-foreground-muted mb-6">
+              I build modern web apps with open APIs and scalable backend systems.
             </p>
           </div>
 
           <div className="fade-in-up delay-300">
-            <p className="text-lg md:text-xl text-foreground-secondary mb-8 max-w-2xl mx-auto leading-relaxed">
-              Passionate about creating innovative solutions with expertise in 
-              <span className="text-primary font-medium"> Cybersecurity</span>, 
-              <span className="text-secondary font-medium"> Full Stack Development</span>, and 
-              <span className="text-accent font-medium"> AI/ML</span>
+            <p className="text-lg md:text-xl text-foreground-secondary mb-8 max-w-3xl mx-auto leading-relaxed">
+              Passionate about creating innovative solutions with expertise in modern web technologies,
+              cybersecurity, and AI/ML. Building scalable applications that make a difference.
             </p>
           </div>
 
